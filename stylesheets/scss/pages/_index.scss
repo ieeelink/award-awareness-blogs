@@ -1,0 +1,125 @@
+/*--------------------------------------------------------------
+# Our Services
+--------------------------------------------------------------*/
+.services .icon-box {
+    text-align: center;
+    border: 1px solid #ededed;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    width: 100%;
+}
+.services .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #1089ff;
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+}
+.services .icon-box .icon i {
+    color: #fff;
+    font-size: 28px;
+}
+.services .icon-box .icon::before {
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: -8px;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: $color6, $alpha: 0.1);
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    transform: translateZ(-1px);
+}
+.services .icon-box h4 {
+    font-weight: 800;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.services .icon-box h4 a {
+    color: #545454;
+}
+.services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.services .icon-box:hover {
+    background: #1089ff;
+    border-color: #1089ff;
+}
+.services .icon-box:hover .icon {
+    background: #fff;
+}
+.services .icon-box:hover .icon i {
+    color: #1089ff;
+}
+.services .icon-box:hover .icon::before {
+    background: $color6;
+}
+.services .icon-box:hover h4 a,
+.services .icon-box:hover p {
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# F.A.Q
+--------------------------------------------------------------*/
+.faq {
+    padding: 60px 0;
+}
+.faq .faq-list {
+    padding: 0;
+    list-style: none;
+}
+.faq .faq-list li {
+    border-bottom: 1px solid #ececf1;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.faq .faq-list .question {
+    display: block;
+    position: relative;
+    font-family: $color3;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-left: 25px;
+    cursor: pointer;
+    color: $color5;
+    transition: 0.3s;
+}
+.faq .faq-list i {
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+.faq .faq-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 25px;
+}
+.faq .faq-list .icon-show {
+    display: none;
+}
+.faq .faq-list .collapsed {
+    color: black;
+}
+.faq .faq-list .collapsed:hover {
+    color: $color3;
+}
+.faq .faq-list .collapsed .icon-show {
+    display: inline-block;
+    transition: 0.6s;
+}
+.faq .faq-list .collapsed .icon-close {
+    display: none;
+    transition: 0.6s;
+}
