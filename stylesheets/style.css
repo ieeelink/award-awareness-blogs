@@ -1204,3 +1204,96 @@ section {
   font-size: 13px;
   color: #fffafa;
 }
+
+#end-time .clock {
+  overflow: hidden;
+  color: #fffafa;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#end-time .clock .top-pane {
+  margin-bottom: 0px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #4b9ef1;
+  border: 0px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#end-time .clock .bottom-pane {
+  margin-top: 0px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #1089FF;
+  border: 0px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#end-time .clock:hover .top-pane {
+  background-color: #fffafa;
+  color: #1089FF;
+}
+
+#end-time .clock:hover .bottom-pane {
+  background-color: #29435f;
+}
+
+#end-time .col-md-12 {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  #end-time .num {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  #end-time .num {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  #end-time .num {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #end-time .text {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  #end-time .text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  #end-time .text {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  #end-time body {
+    padding-top: 75px;
+  }
+}
+
+#end-time h1 {
+  padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+  #end-time h1 {
+    margin-bottom: 75px;
+    font-size: 100px;
+  }
+}
