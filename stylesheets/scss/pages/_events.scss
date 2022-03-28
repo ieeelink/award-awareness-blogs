@@ -8,6 +8,12 @@
     padding: 30px;
     margin-bottom: 60px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+
+    p{
+        li{
+            margin: 0.8rem;
+        }
+    }
 }
 .blog .entry .entry-img {
     margin: -30px -30px 20px -30px;
