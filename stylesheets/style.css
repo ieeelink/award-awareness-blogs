@@ -48,6 +48,10 @@ section {
   min-height: calc(100vh - 70px - 50px - 51px);
 }
 
+.breadcrumbs {
+  min-height: min-content;
+}
+
 .section-title {
   padding-bottom: 20px;
 }
