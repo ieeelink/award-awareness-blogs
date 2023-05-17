@@ -49,6 +49,7 @@ h6 {
 section {
     padding: 55px 0;
     overflow: hidden;
+    min-height: calc(100vh - 70px - 50px - 51px);
 }
 
 .section-title {
