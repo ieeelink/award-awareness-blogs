@@ -511,7 +511,7 @@ section {
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
+.services .icon-box h4, .services .icon-box a {
   color: #545454;
 }
 
@@ -538,7 +538,8 @@ section {
   background: #2491ff;
 }
 
-.services .icon-box:hover h4 a,
+.services .icon-box:hover h4,
+.services .icon-box:hover a,
 .services .icon-box:hover p {
   color: #fff;
 }
